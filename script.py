@@ -139,7 +139,7 @@ def update(update_info: UpdateInfo):
     if not update_info.keep_suffix:
         newVersion["suffix"] = None
 
-    newVersionString = f"{newVersion["major"]}.{newVersion["minor"]}.{newVersion["patch"]}{newVersion["suffix"] or ""}"
+    newVersionString = f'{newVersion["major"]}.{newVersion["minor"]}.{newVersion["patch"]}{newVersion["suffix"] or ""}'
 
     xmlVersion.text = newVersionString
 
