@@ -150,4 +150,5 @@ def update(update_info: UpdateInfo):
 
 
 if __name__ == "__main__":
+    # Chama a função principal
     main()
